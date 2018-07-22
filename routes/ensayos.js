@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
         tipo: 'ENSAYOS',
         ensayos: [
             { codigo: 1, titulo: 'Startup = Crecimiento', descripcion: 'Evolución de la Startups' },
-            { codigo: 2, titulo: 'Todo lo que eres capaz', descripcion: 'manzanas' },
+            { codigo: 2, titulo: ' Cuando no tomar decisiones', descripcion: 'Acerca del estado de toma de decisiones' },
             { codigo: 3, titulo: 'Teniendo en mente la carrera', descripcion: 'naranjas' },
             { codigo: 4, titulo: 'La Universidad te forma', descripcion: 'Trata sobre la calidad educativa' },
             { codigo: 5, titulo: 'Todo lo que eres capaz', descripcion: 'manzanas' },

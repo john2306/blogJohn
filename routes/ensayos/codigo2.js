@@ -5,7 +5,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
     var datos = {
-        titulo: 'Startup = Crecimiento',
+        titulo: 'Cuándo no tomar decisiones',
         pieDePagina: { autor: 'John Mendoza', fecha: Date() }
     }
 
