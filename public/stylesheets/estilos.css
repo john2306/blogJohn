@@ -2,6 +2,10 @@ body {
     background-color: rgb(80, 170, 173)
 }
 
+a {
+    color: rgb(26, 188, 156)
+}
+
 .container .jumbotron {
     background-color: beige;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -34,7 +38,7 @@ body {
 
 .container .parrafo .jumbotron li:hover {
     background-color: rgb(81, 207, 211);
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 5px;
     text-align: justify;

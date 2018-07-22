@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
         pieDePagina: { autor: 'John Mendoza', fecha: Date() }
     }
 
-    res.render('viewEnsayos/codigo1', datos);
+    res.render('viewEnsayos/codigo12', datos);
 });
 
 

@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="stylesheets/libros.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/estilos.css">
     <script src="main.js"></script>
 
@@ -27,10 +28,10 @@
 
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="ensayos">Ensayos</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="libros">Libros Recomendados</a>
                 </li>
                 <li class="nav-item">
@@ -48,8 +49,40 @@
         <br>
         <div class="parrafo">
             <div class="jumbotron">
-                <p>This is some text.</p>
-                <p>This is another text.</p>
+                <h3>{{tipoGeneral}}</h3>
+                <section class="bg-light" id="team">
+                    <div class="container">
+                        <div class="row">
+                            {{#each librosGeneral}}
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                                <div class="team-member">
+                                    <img class="mx-auto rounded-circle" src="{{img}}" alt="{{titulo}}">
+                                    <a href="{{src}}" target="_blank"><h4>{{restriccion}}</h4></a>
+                                    <p class="text-muted" style="text-align: center">{{titulo}}</p>
+                                </div>
+                            </div>
+                            {{/each}}                    
+                        </div>
+                    </div>
+                </section>  
+                <!--Sección dos -->  
+                <h3>{{tipoEmprendimiento}}</h3>
+                <section class="bg-light" id="team">
+                    <div class="container">
+                        <div class="row">
+                            {{#each librosEmprendimiento}}
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                                <div class="team-member">
+                                    <img class="mx-auto rounded-circle" src="{{img}}" alt="{{titulo}}">
+                                    <a href="{{src}}" target="_blank"><h4>{{restriccion}}</h4></a>
+                                    <p class="text-muted" style="text-align: center">{{titulo}}</p>
+                                </div>
+                            </div>
+                            {{/each}}                    
+                        </div>
+                    </div>
+                </section> 
+
             </div>
         </div>
     </div>

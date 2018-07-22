@@ -1,0 +1,158 @@
+a {
+    color: rgb(26, 188, 156)
+}
+
+a:hover {
+    color: rgb(26, 188, 156)
+}
+
+.text-primary {
+    color: rgb(26, 188, 156)!important
+}
+
+section {
+    padding: 100px 0
+}
+
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+section h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+@media (min-width:768px) {
+    section {
+        padding: 20px 0
+    }
+}
+
+.btn {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px
+}
+
+.btn-primary {
+    background-color: rgb(26, 188, 156)6;
+    border-color: rgb(26, 188, 156)
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: rgb(26, 188, 156)!important;
+    border-color: rgb(26, 188, 156)!important;
+    color: #fff
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important
+}
+
+::-moz-selection {
+    background: rgb(26, 188, 156);
+    text-shadow: none
+}
+
+::selection {
+    background: rgb(26, 188, 156);
+    text-shadow: none
+}
+
+img::selection {
+    background: 0 0
+}
+
+img::-moz-selection {
+    background: 0 0
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff
+}
+
+.team-member img:hover {
+    border: 10px solid rgb(26, 188, 156);
+    width: 280px;
+    height: 280px;
+}
+
+.team-member h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-transform: none
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.team-member .text-muted {
+    text-align: center;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center
+}
+
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+ul.social-buttons {
+    margin-bottom: 0
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #212529
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: rgb(26, 188, 156)
+}

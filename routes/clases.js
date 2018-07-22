@@ -28,7 +28,7 @@ router.get('/', function(req, res, next) {
         pieDePagina: { autor: 'John Mendoza', fecha: Date() }
     };
 
-    res.render('ensayos', datos);
+    res.render('clases', datos);
 });
 
 
